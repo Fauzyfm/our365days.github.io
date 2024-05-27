@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>365 Day's</title>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <style type="text/tailwindcss">
+    .play-button {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      color: black;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 50%;
+      font-size: 24px;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    </style>
+</head> 
+<body class="bg-slate-300">
+
+    <div class="w-4/5 mx-auto shadow-2xl bg-gradient-to-bl from-rose-gold to-biru-muda font-inter">
+        <div class="bg-white bg-opacity-60 p-10 mb-96 pt-80 ">
+            <div class="text-center text-8xl opacity-45 text-slate-900 font-inter p-5">365 Day's About Us</div>
+        </div>
+        <!-- <div class="container mx-auto py-5">
+                <div class="w-96 h-96 rounded-lg shadow-xl border-biru-muda border-2 bg-center bg-contain bg-no-repeat " style="background-image: url(./image/us/DSC03021.JPG);"></div>
+
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque aliquam minima, et ducimus laudantium deserunt facilis sunt illo tenetur labore?</div>
+
+        </div> -->
+        <div class="ml-4 w-10 h-10">
+            <audio id="myAudio" preload="none">
+                <source src="./image/Pamungkas+-+One+Only+(Lyrics+Video).mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            
+              <button class="play-button w-10 h-10" onclick="playMusic()">
+                <i class="fas fa-music"></i>
+              </button> 
+        
+        </div>
+
+        <!-- <section class="mb-10">
+            <h1 class="text-center p-5 text-3xl">My Favorite Photo</h1> -->
+            <!-- <div class="flex flex-wrap justify-center gap-2">
+                <div class="w-32 h-56 rounded shadow">
+                    <img src="./image/luthfiyah.jpg" alt="" class="object-cover">
+                </div>
+                <div class="w-32 h-56  rounded shadow">
+                    <img src="./image/luthfiyah.jpg" alt="" class="object-cover">
+                </div>
+                <div class="w-32 h-56  rounded shadow">
+                    <img src="./image/luthfiyah.jpg" alt="" class="object-cover">
+                </div>
+                <div class="w-32 h-56  rounded shadow">
+                    <img src="./image/luthfiyah.jpg" alt="" class="object-cover">
+                </div>
+                <div class="w-32 h-56  rounded shadow">
+                    <img src="./image/luthfiyah.jpg" alt="" class="object-cover">
+                </div>
+                <div class="w-32 h-56 rounded shadow">
+                    <img src="./image/luthfiyah.jpg" alt="" class="object-cover">
+                </div>
+                <div class="w-32 h-56  rounded shadow">
+                    <img src="./image/luthfiyah.jpg" alt="" class="object-cover">
+                </div>
+                <div class="w-32 h-56  rounded shadow">
+                    <img src="./image/luthfiyah.jpg" alt="" class="object-cover">
+                </div>
+            </div> -->
+            <!-- <div class="slider">
+                <div class="slides relative">
+                  <div class="slide w-96 h-96 rounded-lg shadow-xl border-biru-muda border-2 mx-auto bg-center bg-contain bg-no-repeat" style="background-image: url(./image/us/DSC03021.JPG);"></div>
+                  <div class="slide w-96 h-96 rounded-lg shadow-xl border-biru-muda border-2 mx-auto bg-center bg-contain bg-no-repeat" style="background-image: url(./image/us/DSC03032.JPG);"></div>
+                  <div class="slide w-96 h-96 rounded-lg shadow-xl border-biru-muda border-2 mx-auto bg-center bg-contain bg-no-repeat" style="background-image: url(./image/us/IMG-20231010-WA0044.jpg);"></div>
+                  <div class="slide w-96 h-96 rounded-lg shadow-xl border-biru-muda border-2 mx-auto bg-center bg-contain bg-no-repeat" style="background-image: url(./image/us/IMG-20230816-WA0006.jpg);"></div>
+                  <div class="slide w-96 h-96 rounded-lg shadow-xl border-biru-muda border-2  mx-auto my-auto">
+                    <video class="object-cover" src="./image/us/2023-08-28-193711969.mp4" autoplay muted loop>
+                    </video>
+                  </div>   
+                  <div class="prev-btn absolute top-1/2 -left-4 -translate-y-1/2 z-10 cursor-pointer"><</div>
+                  <div class="next-btn absolute top-1/2 -right-4 -translate-y-1/2 z-10 cursor-pointer">></div>
+                </div>
+            </div>
+            <div class="my-5 p-5">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis natus autem consequatur aliquam nisi placeat numquam ratione ea quam quasi.</p>
+            </div>
+        </section> -->
+
+        <section>
+            <div class="mt-10 p-10 font-inter grid grid-cols-4 gap-4">
+                <div class="text-xl font-semibold text-slate-700 flex group relative"><span class="self-start group-hover:scale-75 transition-all duration-500 p-5">There's a lot of memories obout us</span></div>
+                <div class="text-lg font-semibold text-slate-700 col-start-4 row-start-2 flex  group relative"><span class="self-end group-hover:scale-75 transition-all duration-500 p-5">will you still love me, when nobody wants me around?</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500 opacity-0"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500"></div></div>
+                <div class="text-sm font-semibold text-slate-700 flex group relative"><span class="self-start group-hover:scale-75 transition-all duration-500 p-5"></span></div>
+                <div class="text-sm font-semibold text-slate-700 flex group relative"><span class="self-start group-hover:scale-75 transition-all duration-500 p-5"></span></div>
+                <div class="text-sm font-semibold text-slate-700 flex group relative"><span class="self-start group-hover:scale-75 transition-all duration-500 p-5">....</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/1.JPG);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-center group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" ><video class="object-cover" src="./image/fix/7.mp4" autoplay muted loop>
+                </video></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-center group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/3.JPG);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/2.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-center group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/10.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/6.jpg);"></div></div>
+                <div class="text-lg font-semibold text-slate-700 flex group relative"><span class="self-center group-hover:scale-75 transition-all duration-500 p-5">I'm not perfect, but I try</span></div>
+                <div class="text-sm font-semibold text-slate-700 flex group relative"><span class="self-end group-hover:scale-75 transition-all duration-500 p-5">To make your days better than mine</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/9.JPG);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/10.JPG);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/11.JPG);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/12.jpg);"></div></div>
+                <div class="text-lg font-semibold text-slate-700 flex group relative"><span class="self-start group-hover:scale-75 transition-all duration-500 p-5">'Cause you are worth it and you are perfect</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/14.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/15.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/16.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/17.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/18.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/19.jpg);"></div></div>
+                <div class="text-lg font-semibold text-slate-700 flex group relative"><span class="self-start group-hover:scale-75 transition-all duration-500 p-5">I'm standin' still stare at you only</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/21.JPG);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/22.webp);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/23.webp);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/24.webp);"></div></div>
+                <div class="text-sm font-semibold text-slate-700 flex group relative"><span class="self-end group-hover:scale-75 transition-all duration-500 p-5">Through the talkin' and the walkin'</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/26.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/27.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/25.jpg);"></div></div>
+                <div class="text-sm font-semibold text-slate-700 flex group relative"><span class="self-start group-hover:scale-75 transition-all duration-500 p-5">I will give you all of my love</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-center group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/30.mp4);"><video class="object-cover" src="./image/fix/30.mp4" autoplay muted loop>
+                </video></div></div>
+                <div class="text-sm font-semibold text-slate-700 flex group relative"><span class="self-start group-hover:scale-75 transition-all duration-500 p-5">Never thought that I'd find that the one in my life would be so near</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/32.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/33.webp);"></div></div>
+                <div class="text-sm font-semibold text-slate-700 flex group relative"><span class="self-end group-hover:scale-75 transition-all duration-500 p-5">And now you're here i got you, you got me</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/35.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/36.JPEG);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/37.JPG);"></div></div>
+                <div class="text-sm font-semibold text-slate-700 flex group relative"><span class="self-start group-hover:scale-75 transition-all duration-500 p-5">When it's us, babe, you make me feel complete, you're all I need</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/39.JPG);"></div></div>
+                <div class="text-9xl font-semibold text-slate-700 flex group relative"><span class="self-center mx-auto group-hover:scale-150 transition-all duration-500 p-5">L</span></div>
+                <div class="text-9xl font-semibold text-slate-700 flex group relative"><span class="self-center mx-auto group-hover:scale-150 transition-all duration-500 p-5">O</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/40.JPEG);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/41.JPG);"></div></div>
+                <div class="text-9xl font-semibold text-slate-700 flex group relative"><span class="self-center mx-auto group-hover:scale-150 transition-all duration-500 p-5">V</span></div>
+                <div class="text-9xl font-semibold text-slate-700 flex group relative"><span class="self-center mx-auto group-hover:scale-150 transition-all duration-500 p-5">E</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/42.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/43.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/44.jpeg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/45.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/46.jpeg);"></div></div>
+                <div class="text-lg font-semibold text-slate-700 flex group relative"><span class="self-start mr-0 group-hover:scale-75 transition-all duration-500 p-5">Love is us</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/47.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/48.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/49.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/50.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-center group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/51.jpg);"></div></div>
+                <div class="text-lg font-semibold text-slate-700 flex group relative"><span class="self-end group-hover:scale-75 transition-all duration-500 p-5">i know you always doing ur best every day!!</span></div>
+                <div class="text-2xl font-semibold text-slate-700 flex group relative"><span class="self-center group-hover:scale-75 transition-all duration-500 p-5">i'm so proud of you!</span></div>
+                <div class="h-15 aspect-[4/3] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-center group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/52.jpg);"></div></div>
+                <div class="text-sm font-semibold text-slate-700 flex group relative"><span class="self-start group-hover:scale-75 transition-all duration-500 p-5">Thank you for everything u give to me</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/53.mp4);"><video class="object-cover" src="./image/fix/53.mp4" autoplay muted loop>
+                </video></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/54.mp4);"><video class="object-cover" src="./image/fix/54.mp4" autoplay muted loop>
+                </video></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/55.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/56.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/57.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/58.JPG);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/59-2.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/60-2.jpg);"></div></div>
+                <div class="text-sm font-semibold text-slate-700 flex group relative"><span class="self-center mx-auto group-hover:scale-75 transition-all duration-500 p-5">thank you for still be my side</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/61.JPG);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/62.mp4);"><video class="object-cover" src="./image/fix/62.mp4" autoplay muted loop>
+                </video></div></div>
+                <div class="h-15 aspect-[4/3] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/63.mp4);"><video class="object-cover" src="./image/fix/63-2.mp4" autoplay muted loop>
+                </video></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/64.jpg);"></div></div>
+                <div class="text-sm font-semibold text-slate-700 flex group relative"><span class="self-start group-hover:scale-75 transition-all duration-500 p-5">My flawed self is easily replaceable</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/65.jpg);"></div></div>
+                <div class="text-sm font-semibold text-slate-700 flex group relative"><span class="self-end group-hover:scale-75 transition-all duration-500 p-5">but u still chose me, that is a joy</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/66.mp4);"><video class="object-cover" src="./image/fix/66.mp4" autoplay muted loop>
+                </video></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/67.mp4);"><video class="object-cover" src="./image/fix/67.mp4" autoplay muted loop>
+                </video></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/68.mp4);"><video class="object-cover" src="./image/fix/68.mp4" autoplay muted loop>
+                </video></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/69.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/70.mp4);"><video class="object-cover" src="./image/fix/70.mp4" autoplay muted loop>
+                </video></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/71.JPG);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/72.JPG);"></div></div>
+                <div class="text-xl font-semibold text-slate-700 flex group relative"><span class="self-center mx-auto group-hover:scale-75 transition-all duration-500 p-5">but</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/73.JPG);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/74.JPG);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/75.JPG);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/76.JPG);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/77.JPG);"></div></div>
+                <div class="text-sm font-semibold text-slate-700 flex group relative"><span class="self-start group-hover:scale-75 transition-all duration-500 p-5">Do you feel what I feel?</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/78.mp4);"><video class="object-cover" src="./image/fix/78.mp4" autoplay muted loop>
+                </video></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-center group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/79-2.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/80.mp4);"><video class="object-cover" src="./image/fix/80.mp4" autoplay muted loop>
+                </video></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/81.mp4);"><video class="object-cover" src="./image/fix/81.mp4" autoplay muted loop>
+                </video></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/82.mp4);"><video class="object-cover" src="./image/fix/82.mp4" autoplay muted loop>
+                </video></div></div>
+                <div class="text-sm font-semibold text-slate-700 flex group relative"><span class="self-start group-hover:scale-75 transition-all duration-500 p-5">Can you see my feelings?</span></div>
+                <div class="text-sm font-semibold text-slate-700 flex group relative"><span class="self-center group-hover:scale-75 transition-all duration-500 p-5">Do you see it? These feelings of mine</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/83.jpg);"></div></div>
+                <div class="text-sm font-semibold text-slate-700 flex group relative"><span class="self-end group-hover:scale-75 transition-all duration-500 p-5">do they reach your heart?</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/84.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/85.jpg);"></div></div>
+                <div class="text-sm font-semibold text-slate-700 flex group relative"><span class="self-start group-hover:scale-75 transition-all duration-500 p-5">After all that we have been through</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/86.mp4);"><video class="object-cover" src="./image/fix/86-2.mp4" autoplay muted loop>
+                </video></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/87.mp4);"><video class="object-cover" src="./image/fix/87.mp4" autoplay muted loop>
+                </video></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/88.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/89.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/90.webp);"></div></div>
+                <div class="text-xl font-semibold text-slate-700 flex group relative"><span class="self-center mx-auto group-hover:scale-75 transition-all duration-500 p-5">Happiness</span></div>
+                <div class="text-xl font-semibold text-slate-700 flex group relative"><span class="self-center mx-auto group-hover:scale-75 transition-all duration-500 p-5">Sadness</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/91.jpg);"></div></div>
+                <div class="text-xl font-semibold text-slate-700 flex group relative"><span class="self-center mx-auto group-hover:scale-75 transition-all duration-500 p-5">Excitement</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/92.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/93.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/94.jpg);"></div></div>
+                <div class="text-xl font-semibold text-slate-700 flex group relative"><span class="self-center mx-auto group-hover:scale-75 transition-all duration-500 p-5">Fear</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/95.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/96.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/97.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/98.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/99.jpg);"></div></div>
+                <div class="text-sm font-semibold text-slate-700 flex group relative"><span class="self-start group-hover:scale-75 transition-all duration-500 p-5">We have gone through everything together.</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/100.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/7.mp4);"><video class="object-cover" src="./image/fix/7.mp4" autoplay muted loop>
+                </video></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/8.mp4);"><video class="object-cover" src="./image/fix/8.mp4" autoplay muted loop>
+                </video></div></div>
+                <div class="text-sm font-semibold text-slate-700 flex group relative"><span class="self-end group-hover:scale-75 transition-all duration-500 p-5">Until our relationship reaches one year.</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/13.mp4);"><video class="object-cover" src="./image/fix/13.mp4" autoplay muted loop>
+                </video></div></div>
+                <div class="text-xl font-semibold text-slate-700 flex group relative"><span class="self-center mx-auto group-hover:scale-75 transition-all duration-500 p-5">so</span></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/20.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/25.jpg);"></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/29.mp4);"><video class="object-cover" src="./image/fix/29.mp4" autoplay muted loop>
+                </video></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/31.mp4);"><video class="object-cover" src="./image/fix/31.mp4" autoplay muted loop>
+                </video></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/34.mp4);"><video class="object-cover" src="./image/fix/34.mp4" autoplay muted loop>
+                </video></div></div>
+                <div class="h-15 aspect-[3/4] rounded-lg overflow-hidden shadow-lg group relative hover:scale-95 transition-all duration-500"><div class="w-full h-full bg-cover bg-left-top group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./image/fix/38.JPG);"></div></div>
+                <div class="text-lg font-semibold text-slate-700 flex group relative"><span class="self-center mx-auto group-hover:scale-75 transition-all duration-500 p-5">Do you want continue this journey?</span></div>
+
+            </div>
+        </section>
+
+        <div class="bg-white bg-opacity-60 p-10 mt-96 pt-80 ">
+            <div class="text-center text-8xl opacity-45 text-slate-900 font-inter p-5">Happy One-Year Anniversary!</div>
+            <p class="text-center text-sm opacity-45 text-slate-800 font-inter p-5">Congratulations to both of us for reaching this point, and a new journey awaits.</p>
+        </div>
+
+        <!-- <section>
+            <h1>My Trip</h1>
+            <div>
+                <p>the first place we met</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>the first place we had a date</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>the first movie we watched</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>my first time I gave flowers</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>my first time doing a photo studio</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>my first time im getting a lot photo's of girl</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>my first time I invited a girl to eat with my mother</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>The first time I used skincare by you</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>The first time this many photos have been taken of me</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>First time being able to enjoy food this delicious</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>the first time being called "Sayang" this warmly</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>First time getting a birthday surprise this cute</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>First time giving a surprise to the girl I love</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>First time riding with the person I love most</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>First time eating at a Gacoan noodle place</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>the place for the first time we broke the fast together</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>My favorite place we've ever visited</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>a gift from the girl I love</p>
+            </div>
+
+            <div>
+                <img src="" alt="">
+                <p>and this is where we are start this journey</p>
+            </div>
+        </section> -->
+
+
+    </div>
+    
+
+<script type="text/javascript">
+    const audioElement = document.getElementById('myAudio');
+
+function playMusic() {
+  audioElement.volume = 0.4; // Set volume to 50%
+  audioElement.play().catch(error => {
+    console.error('Error playing audio:', error);
+  });
+}
+
+
+</script>
+
+</body>
+</html>
